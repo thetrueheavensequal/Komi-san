@@ -224,7 +224,7 @@ else:
     ALLOW_EXCL = Config.ALLOW_EXCL
     DEL_CMDS = Config.DEL_CMDS
     GENIUS_API_TOKEN = Config.GENIUS_API_TOKEN
-    YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
+  #  YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
 
     try:
         BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
