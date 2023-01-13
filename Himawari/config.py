@@ -61,7 +61,7 @@ class Config(object):
     DB_URL2="" #mongo db (not necessary)
     DB_URL="postgresql://plumblossomsword:YOHMSYTKcjYLaqioWlyCDRrJZSkSmvQ3@dpg-cevf5782i3mntl1sh6q0-a.frankfurt-postgres.render.com/telegram_postgresql" #postgres sql database link
     REDIS_URL="" #redis database url from redislabs.com
-    TOKEN="54dssdV8e59Odo" #bot token from @BotFather
+    TOKEN="5932946559:AAHY4nAVk_wRxhgslfeTi-53zn28cLhLJew" #bot token from @BotFather
     DEV_USERS=[2064735436] #developers id
     DRAGONS=[] #sudo users id
     DEMONS=[] #support user ids
@@ -72,9 +72,9 @@ class Config(object):
     JOIN_LOGGER=-1001859171071  #log channel/group id
     OWNER_ID=2064735436 #owner id in integer
     ERROR_LOGS=-1001859171071 #support group id
-    BOT_ID =  #id of bot in integer value
+    BOT_ID =5932946559 #id of bot in integer value
     BOT_NAME="Shouko" #your bot name
-    ARQ_API_KEY="" #ARQ api key from @ARQRobot
+    ARQ_API_KEY="QOYIDT-TJPPDA-JVVIZH-BTHMBB-ARQ" #ARQ api key from @ARQRobot
     ARQ_API_URL="arq.hamker.dev" #arq link
     SUPPORT_CHAT="theoneandonlymurim" #support group username without @
     OWNER_USERNAME="plumblossomsword" #owner username without @
@@ -85,8 +85,11 @@ class Config(object):
     TIME_API_KEY="4ID9HHBVU5L8" #not necessary
     SPAMWATCH_API="zKSTO8g_x3qmaMrU_tiTRXibTb532qbmTKXYW3RdyW8Pq0qk1oEtqddo7HqxRp~1" #spamwatch api token from @SpamWatchBot
     WALL_API="6950f5ds6a3" #wall api (not necessary)
-
-
+    CASH_API_KEY="6HZ09C7DZYKWBCCE"
+    OPENWEATHERMAP_ID=""
+    YOUTUBE_API_KEY=""
+    
+    
 class Production(Config):
     LOGGER=True
 
