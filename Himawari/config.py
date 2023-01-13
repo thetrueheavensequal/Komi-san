@@ -57,10 +57,10 @@ class Config(object):
     API_HASH="e18f720acdff1e5b0ec80616aecd8a5a" ##api hash from my.telegram.org
     APP_HASH="e18f720acdff1e5b0ec80616aecd8a5a" #same as API_HASH
     BL_CHATS=[1] #chats to be blacklisted
-    MONGO_DB_URL="" ##mongo database link (necessary)
-    DB_URL2="" #mongo db (not necessary)
+    MONGO_DB_URL="mongodb+srv://plumblossmsword:ndXbDlCy7Zn71beD@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority" ##mongo database link (necessary)
+    DB_URL2="mongodb+srv://plumblossomsword:Qn57AqxG3GRIu9IP@komi.zc6e9si.mongodb.net/?retryWrites=true&w=majority" #mongo db (not necessary)
     DB_URL="postgresql://plumblossomsword:YOHMSYTKcjYLaqioWlyCDRrJZSkSmvQ3@dpg-cevf5782i3mntl1sh6q0-a.frankfurt-postgres.render.com/telegram_postgresql" #postgres sql database link
-    REDIS_URL="" #redis database url from redislabs.com
+    REDIS_URL="rediss://red-cf0rlmirrk05t6t5p3qg:RniRsIOnT6UPiAxVD2QcdaIkwRj7RUye@frankfurt-redis.render.com:6379" #redis database url from redislabs.com
     TOKEN="5932946559:AAHY4nAVk_wRxhgslfeTi-53zn28cLhLJew" #bot token from @BotFather
     DEV_USERS=[2064735436] #developers id
     DRAGONS=[] #sudo users id
