@@ -80,13 +80,13 @@ class Config(object):
     OWNER_USERNAME="plumblossomsword" #owner username without @
     UPDATES_CHANNEL="rimurubotsnetwork" #Updates/News Channel username without @
     BOT_USERNAME="ShoukoX_Bot" #bot username without @
-    REM_BG_API_KEY="" #not necessary
-    GENIUS_API_TOKEN="" # api token from genius.com (not necessary)
+    REM_BG_API_KEY="K2dsdsYma6cZx" #not necessary
+    GENIUS_API_TOKEN="e-8UdRQNrIssPyM" # api token from genius.com (not necessary)
     TIME_API_KEY="4ID9HHBVU5L8" #not necessary
     SPAMWATCH_API="zKSTO8g_x3qmaMrU_tiTRXibTb532qbmTKXYW3RdyW8Pq0qk1oEtqddo7HqxRp~1" #spamwatch api token from @SpamWatchBot
     WALL_API="6950f5ds6a3" #wall api (not necessary)
     CASH_API_KEY="6HZ09C7DZYKWBCCE"
-    OPENWEATHERMAP_ID=""
+    OPENWEATHERMAP_ID="687af7aaae4f454314ca54bfd8cddceb"
     YOUTUBE_API_KEY=""
     
     
