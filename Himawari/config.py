@@ -87,7 +87,6 @@ class Config(object):
     WALL_API="6950f5ds6a3" #wall api (not necessary)
     CASH_API_KEY="6HZ09C7DZYKWBCCE"
     OPENWEATHERMAP_ID="687af7aaae4f454314ca54bfd8cddceb"
-    YOUTUBE_API_KEY=""
     
     
 class Production(Config):
